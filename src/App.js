@@ -71,9 +71,9 @@ function App() {
       value={selectValue}
       onChange={filterTodo}
       >
-        <option value="all">All</option>
-        <option value="completed">Completed</option>
-        <option value="uncompleted">Uncompleted</option>
+        <option value="all">Todos</option>
+        <option value="completed">Completos</option>
+        <option value="uncompleted">Incompletos</option>
       </select>
       </div>
       {error && <p>Digite algo</p>}
