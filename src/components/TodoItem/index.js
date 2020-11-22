@@ -8,7 +8,7 @@ function TodoItem({content,status,editTodo,removeTodo}) {
             <span>{status}</span>
         </div>
         <div>
-            <button onClick={editTodo}>{status ? "Completar" : "Incompleto"}</button>
+            <button onClick={editTodo}>{status ? "Completo" : "Incompleto"}</button>
             <button onClick={removeTodo}>Deletar</button>
         </div>
         </div>
