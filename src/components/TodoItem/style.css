@@ -1,0 +1,30 @@
+.todoItem{
+    width:360px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background:whitesmoke;
+    margin-bottom: 8px;
+    border-radius: 15px;
+    padding:10px 20px;
+    color: #333;
+}
+.todoItem .content{
+    width:160px;
+}
+.todoItem h3{
+    word-break: break-all;
+    font-size: 1.3rem;
+} 
+.todoItem button{
+    padding:10px;
+    color: wheat
+} 
+.todoItem button:first-child{
+    background: green;
+    margin-right: 5px;
+}
+.todoItem button:last-child{
+    background-color: red;
+}
